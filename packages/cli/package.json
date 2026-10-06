@@ -1,0 +1,10 @@
+{
+    "name": "sendkit",
+    "version": "1.0.0",
+    "private": true,
+    "type": "module",
+    "dependencies": {
+        "@types/node": "^26.6.4",
+        "commander": "^15.0.0"
+    }
+}
