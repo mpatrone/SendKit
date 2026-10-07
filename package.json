@@ -4,13 +4,19 @@
   "type": "module",
   "private": true,
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "@types/node": "^26.6.4"
   },
   "peerDependencies": {
     "typescript": "^7"
   },
-  "workspaces": ["packages/*"],
+  "workspaces": ["packages/*", "apps/*"],
   "scripts": {
-    "dev:cli": "bun run packages/cli/src/index.ts "
+    "dev:cli": "bun run packages/cli/src/index.ts ",
+    "dev:local-mcp": "bun run packages/local-mcp/src/index.ts",
+    "dev:remote-mcp": "bun run apps/remote-mcp/src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.1"
   }
 }

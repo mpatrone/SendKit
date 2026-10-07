@@ -1,0 +1,13 @@
+{
+    "mcpServers": {
+        "sendkit": {
+            "type": "stdio",
+            "command": "bun",
+            "args": ["run", "dev:local-mcp"],
+            "env": { 
+                "TELEGRAM_BOT_TOKEN": "8896269981:AAEPA0Ilb73Ih0daXU1V9HI0l8GP0PzvC44"
+            },
+            "enabled": true
+        }
+    }
+}
