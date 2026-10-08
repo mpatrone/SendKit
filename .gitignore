@@ -24,6 +24,7 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 
 # MCP server data
 *.mcp.json
+mcp.memory.json
 
 # caches
 .eslintcache
