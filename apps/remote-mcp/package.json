@@ -19,6 +19,6 @@
   },
   "main": "src/index.ts",
   "scripts": {
-    "start": "npm run src/index.ts"
+    "start": "bun run src/index.ts"
   }
 }
