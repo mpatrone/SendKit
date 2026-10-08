@@ -1,20 +1,24 @@
 {
-    "name": "sendkit-remote-mcp",
-    "version": "1.0.0",
-    "private": true,
-    "type": "module",
-    "exports": {
-        ".": "./src/index.ts"
-    },
-    "devDependencies": {
-        "@types/node": "^26.6.4"
-    },
-    "dependencies": {
-        "@clerk/backend": "^3.23.0",
-        "@clerk/mcp-tools": "^0.6.0",
-        "@modelcontextprotocol/sdk": "^1.32.1",
-        "hono": "^4.13.13",
-        "sendkit-core": "workspace:*",
-        "zod": "^4.6.5"
-    }
+  "name": "sendkit-remote-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4"
+  },
+  "dependencies": {
+    "@clerk/backend": "^3.23.0",
+    "@clerk/mcp-tools": "^0.6.0",
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "hono": "^4.13.13",
+    "sendkit-core": "workspace:*",
+    "zod": "^4.6.5"
+  },
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "npm run src/index.ts"
+  }
 }
