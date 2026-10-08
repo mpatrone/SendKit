@@ -10,13 +10,14 @@
   "peerDependencies": {
     "typescript": "^7"
   },
-  "workspaces": ["packages/*", "apps/*"],
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
   "scripts": {
     "dev:cli": "bun run packages/cli/src/index.ts ",
     "dev:local-mcp": "bun run packages/local-mcp/src/index.ts",
-    "dev:remote-mcp": "bun run apps/remote-mcp/src/index.ts"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.32.1"
+    "dev:remote-mcp": "bun run apps/remote-mcp/src/index.ts",
+    "dev:hono": "bun run server.ts"
   }
 }

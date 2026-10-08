@@ -36,3 +36,5 @@ mcp.memory.json
 
 # Finder (MacOS) folder config
 .DS_Store
+.vercel
+.env*
